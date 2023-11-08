@@ -1,0 +1,68 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    }
+    
+    
+    section{
+        background-color: grey;
+        height: 90vh;
+        width: 90%;
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+    
+    }
+    #child1{
+        height: 90vh;
+        width: 90%;
+        background-color: deeppink;
+    }
+    #child2{
+        height: 90vh;
+        width: 90%;
+        background-color:grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
+    #gchild1, #gchild2, #gchild3{
+        height: 30%;
+        width: 100%;
+       
+    }
+    #gchild1{
+        background-color: deeppink;
+    }
+    #gchild2{
+        background-color: grey;
+        display: flex;
+        gap:20px;
+    
+    
+    }
+    #gchild3{
+        background-color: deeppink;
+    }
+    
+    #ggchild1{
+        background-color: deeppink;
+        height: 50%;
+        width: 50%;
+    }
+    #ggchild2{
+        background-color: deeppink;
+        height: 50%;
+        width: 50%;
+    }
+    #ggchild3{
+        background-color: deeppink;
+        height:50%;
+        width: 50%;
+    }
+    
+    
